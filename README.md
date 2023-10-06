@@ -1,4 +1,4 @@
-# USC MSComputer Science - Graduate Coursework Projects
+# USC MS Computer Science - Graduate Coursework Projects
 
 ## Computer Science 572: Information Retrieval and Web Search Engines
 
