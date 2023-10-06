@@ -2,7 +2,7 @@
 
 ## Computer Science 572: Information Retrieval and Web Search Engines
 
-### Project 1: Comparing search engines (Google vs. Bing)
+### PROJECT 1: Comparing search engines (Google vs. Bing)
 
 The project compared the search results from Google and Bing for 100 pre-determined queries, determined the overlap with the search results, and calculated correlation using Spearman's rank coefficient (Spearman's rho).
 
@@ -15,7 +15,7 @@ The project compared the search results from Google and Bing for 100 pre-determi
 - Apache Commons Math
 
 
-### Project 2: Web Crawling 
+### PROJECT 2: Web Crawling 
 
 The project leveraged crawler4j library to crawl a news site and gather/measure various aspects of the crawl, study crawl characteristics and gather webpage metadata. 
 
@@ -33,7 +33,7 @@ The project leveraged crawler4j library to crawl a news site and gather/measure 
 
 ## Computer Science 576: Multimedia Systems Design (Spring 2023 taught by Instructor Parag Havaldar)
 
-### Final Project: Interactive Media Player  
+### FINAL PROJECT: Interactive Media Player  
 
 The project's purpose is to provide an in-depth understanding of multimedia technology. The project involves extracting structure from media elements (video/audio) and building an interactive media player for exploring the media content. The project represents a solution that automatically creates a logical index or table of contents from a video with audio input.
 
