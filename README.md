@@ -31,7 +31,6 @@ The project leveraged crawler4j library to crawl a news site and gather/measure 
 
 
 
-
 ## Computer Science 576: Multimedia Systems Design (Spring 2023 taught by Instructor Parag Havaldar)
 
 ### Final Project: Interactive Media Player  
