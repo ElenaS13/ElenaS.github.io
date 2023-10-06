@@ -1,6 +1,6 @@
 # USC MS Computer Science - Graduate Coursework Projects
 
-## Computer Science 572: Information Retrieval and Web Search Engines
+## CSCI 572: Information Retrieval and Web Search Engines
 
 ### PROJECT 1: Comparing search engines (Google vs. Bing)
 
@@ -31,7 +31,8 @@ The project leveraged crawler4j library to crawl a news site and gather/measure 
 
 
 
-## Computer Science 576: Multimedia Systems Design (Spring 2023 taught by Instructor Parag Havaldar)
+
+## CSCI 576: Multimedia Systems Design (Spring 2023 taught by Instructor Parag Havaldar)
 
 ### FINAL PROJECT: Interactive Media Player  
 
