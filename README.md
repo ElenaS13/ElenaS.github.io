@@ -65,6 +65,7 @@ Created a program that index words from multiple text files in k-v format. Proce
 ### PART 3: Using LLM model with knowledge source 
 
 - small (3.56G) model
+- Llama
 - external knowledge source (.txt file) vectorized using Chroma
 - .gguf format
 - Streamlit
