@@ -66,7 +66,8 @@ Created a program that index words from multiple text files in k-v format. Proce
 
 - small (3.56G) model
 - external knowledge source (.txt file) vectorized using Chroma
-- .gguf format 
+- .gguf format
+- Streamlit
   
 
  
