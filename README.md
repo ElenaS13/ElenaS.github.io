@@ -28,7 +28,48 @@ The project leveraged crawler4j library to crawl a news site and gather/measure 
 - Sleepycat Berkeley DB
 
 
+  
+### PROJECT 3: Inverted-index creation
 
+Created a program that index words from multiple text files in k-v format. Processed the files to remove the tab characters. Used MapReduce to count words in the files. The output is the inverted index with unigrams and bigrams. 
+
+#### Languages, Libraries, and Frameworks:
+
+- Java
+- Hadoop MapReduce
+- HashMap data structure
+- Apache Hadoop for handling distributed storage and processing
+- Classes provided by Hadoop for specifying the input and output formats for MapReduce jobs
+- Hadoop-specific data types for representing textual and integer data in MapReduce jobs
+
+
+
+### PROJECT 4: 
+
+### PART 1: Use vector-based similarity search, to retrieve search results that are not keyword-driven
+
+#### Languages, Libraries, and Frameworks:
+
+- Used Weaviate (via Docker) and vectorizer transformer
+- Loaded data in json format that would be searched
+
+
+
+### PART 2: Crawl a set of pages to create a json file be used by LLM 
+
+- Builder.io GPT-crawler
+- npm
+
+
+
+### PART 3: Using LLM model with knowledge source 
+
+- small (3.56G) model
+- external knowledge source (.txt file) vectorized using Chroma
+- .gguf format 
+  
+
+ 
 ---
 
 
