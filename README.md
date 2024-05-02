@@ -1,5 +1,72 @@
 # USC MS Computer Science - Graduate Coursework Projects
 
+## CSCI 585: Database Systems
+
+### PROJECT 1: Design conceptual Entity-Relational (ER) diagram 
+- The project involved creating a conceptual Entity-Relationship (ER) diagram for a new dental practice, using Crow's Foot Notation to indicate cardinality.
+- The ER diagram was created using a diagramming tool 
+- The ER diagram was created to capture the business operation from a database perspective, including entities such as staff, patients, insurance providers, and procedures.
+
+#### Languages, Libraries, and Frameworks:
+
+draw.io, Lucidchart
+
+### PROJECT 2: Populating and Querying Tables Based (continued from Project 1)
+
+- The project involved adding data to tables based on a previous database design, and writing SQL queries to run on those tables using Oracle Live SQL.
+- The project includes four queries:
+ - Query 1: Given a time range, calculate the average cost and time of a procedure.
+ - Query 2: Given a date, calculate the income from all procedures performed on that day.
+ - Query 3: Create a new table to store employee skills and write a query to select employees who can perform all tasks in a given list.
+ - Query 4: Create a new query that the owners might find useful, using all the data in the database, and explain how it works.
+- The project did not require installing any software or submitting code directly. Instead, links to the work on Oracle Live SQL are submitted.
+
+  
+#### Languages, Libraries, and Frameworks:
+
+Oracle Live SQL
+
+
+### PROJECT 3: Geospatial data handling
+
+- In this project, I  worked with spatial data by collecting and creating their my data, visualizing it, and performing queries on it.
+- Created longitude and latitude pairs for 12 locations on the UCLA campus, as well as home coordinates, and categorized them into 4 categories: department buildings, waterworks, coffee places, and blue light emergency phones.
+- Cretaed a KML file using a text editor and use Google Earth to visualize the data.
+- Installed Postgres+PostGIS and executed two spatial queries: computing the convex hull for the 13 points and finding the four nearest neighbors of the home/apt/dorm room location.
+- Used OpenLayers and HTML5 localStorage to store and visualize the location data in a web browser.
+- Used one of UCLA's locations as the center, to compute a set of lat-long coordinates that lie along a Spirograph curve, create a new KML file, converting it to an ESRI shapefile, and visualized the data using ArcGIS Online.
+
+- 
+#### Languages, Libraries, and Frameworks:
+
+Text editor (for creating KML file)
+Google Earth (for visualizing KML data)
+Postgres+PostGIS (for executing spatial queries)
+OpenLayers and HTML5 localStorage (for storing and visualizing location data in a web browser)
+ArcGIS Online (for visualizing ESRI shapefile data)
+
+
+### PROJECT 4: NoSQL
+
+- In this project, I worked with NoSQL and JSON data using MongoDB Atlas, a cloud-based installation of MongoDB. 
+- Created a database, added collections of documents to it, and performed queries. 
+- Sign up for MongoDB Atlas and set up a cluster
+- Created a database called HW4DB
+- Created a collection called HW3Data and insert your locations data from HW3 into it
+- Wrote a query to output locations with a popularity of >=50
+- Modified Spirograph code from Project 3 to output data in a specific format and create a collection called Spiro
+- Created a collection called NPS and add data from the National Park Service to it
+- Visualized the data using charts and performed spatial querying
+
+  
+#### Languages, Libraries, and Frameworks:
+
+MongoDB Atlas
+JSON data
+GeoJSON queries
+
+
+
 ## CSCI 572: Information Retrieval and Web Search Engines
 
 ### PROJECT 1: Comparing search engines (Google vs. Bing)
