@@ -1,5 +1,23 @@
 # USC MS Computer Science - Graduate Coursework Projects
 
+
+## CSCI 566: Deep Learning and Its Applications
+
+
+### FINAL PROJECT: Deep Learning–Based Diabetic Retinopathy Detection System
+
+* Designed and evaluated a hybrid model combining a pre-trained Vision Transformer (ViT) architecture with CapsNet, addressing limitations in capturing both global context and localized pathology in retinal fundus images.
+* On the APTOS 2019 Kaggle dataset achieved 90.99% accuracy and a 0.91 weighted F1-score across 3,662 validation samples.
+* Demonstrated that ViT self-attention mechanisms capture pathologies (e.g., proliferative DR) while CapsNet was able to preserve fine-grained lesion hierarchies such as microaneurysms and small hemorrhages.
+* Conducted model interpretability studies, including per-head attention maps, capsule activation norms, and t-SNE embedding visualizations while confirming clinical application of the representations.
+* Improved model generalization through label smoothing, MixUp augmentation, optimized routing iterations, while integrating uncertainty estimation through routing entropy and Monte Carlo dropout.
+* Researched limitations in dataset diversity and clinical context while defining future work needed in multi-view fusion (left/right eye), multimodal EHR integration, and semi-supervised fine-tuning for improved generalization.
+#### Languages, Libraries, and Frameworks:
+* Tools & Frameworks: PyTorch, Hugging Face Transformers, scikit-learn, Google Colab.
+
+
+
+
 ## CSCI 585: Database Systems
 
 ### PROJECT 1: Design conceptual Entity-Relational (ER) diagram 
